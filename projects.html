@@ -1,81 +1,109 @@
-<div class="container-fluid pt-5 pb-3" id="projects">
-        <div class="container">
-            <div class="position-relative d-flex align-items-center justify-content-center">
-                <h1 class="display-1 text-uppercase text-white" style="1px #dee2e6;">Projects</h1>
-                <h1 class="position-absolute text-uppercase text-primary">Gallery</h1>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Projects - Maha Shahid</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+      </head>
+    <body>
+        <header class="menu-bar">
+            <a href="#" class="logo">MS</a>
+            <nav class="projectsNavbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="projects.html" class="active">Projects</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </header>
+        <style>
+            body{
+                background: rgb(204,175,184);
+                background: linear-gradient(236deg, rgba(204,175,184,1) 56%, rgba(251,140,0,1) 94%);
+            }
+        </style>
+        <div class="container-fluid pt-5 pb-3" id="projects">
+                <div class="container">
+                    <div class="position-relative d-flex align-items-center justify-content-center">
+                        <h1 class="display-1 text-uppercase text-white" style="1px #dee2e6;">Projects</h1>
+                        <h1 class="position-absolute text-uppercase text-primary">Gallery</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-12 text-center mb-2">
+                            <ul class="list-inline mb-4" id="projects-flters">
+                                <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Stopwatch</li>
+                                <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Master Mind Game</li>
+                                <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Weather API</li>
+                                <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Git Notes Application</li>
+                                <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Attendant</li>
+                                <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fifth">MORE</li>
+                                <li class="btn btn-sm btn-outline-primary m-1" data-filter=".sixth">TicTacToe Game</li>
+                                <li class="btn btn-sm btn-outline-primary m-1" data-filter=".seventh">Attendant</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row projects-container">
+                        <div class="col-lg-4 col-md-6 mb-4 projects-item first">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid rounded w-100" src="img/projects-1.jpg" alt="">
+                                <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
+                                    <a href="img/prpjects-1.jpg" data-lightbox="projects">
+                                        <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 projects-item second">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid rounded w-100" src="img/projects-2.jpg" alt="">
+                                <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
+                                    <a href="img/projects-2.jpg" data-lightbox="projects">
+                                        <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 projects-item third">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid rounded w-100" src="img/projects-3.jpg" alt="">
+                                <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
+                                    <a href="img/projects-3.jpg" data-lightbox="projects">
+                                        <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 projects-item first">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid rounded w-100" src="img/projects-4.jpg" alt="">
+                                <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
+                                    <a href="img/projects-4.jpg" data-lightbox="projects">
+                                        <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 projects-item second">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid rounded w-100" src="img/projects-5.jpg" alt="">
+                                <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
+                                    <a href="img/projects-5.jpg" data-lightbox="projects">
+                                        <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4 projects-item third">
+                            <div class="position-relative overflow-hidden mb-2">
+                                <img class="img-fluid rounded w-100" src="img/projects-6.jpg" alt="">
+                                <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
+                                    <a href="img/prijects-6.jpg" data-lightbox="projects">
+                                        <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <div class="col-12 text-center mb-2">
-                    <ul class="list-inline mb-4" id="projects-flters">
-                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Stopwatch</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Master Mind Game</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Weather API</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Git Notes Application</li>
-                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Attendant</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row projects-container">
-                <div class="col-lg-4 col-md-6 mb-4 projects-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/projects-1.jpg" alt="">
-                        <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/prpjects-1.jpg" data-lightbox="projects">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 projects-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/projects-2.jpg" alt="">
-                        <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/projects-2.jpg" data-lightbox="projects">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 projects-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/projects-3.jpg" alt="">
-                        <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/projects-3.jpg" data-lightbox="projects">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 projects-item first">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/projects-4.jpg" alt="">
-                        <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/projects-4.jpg" data-lightbox="projects">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 projects-item second">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/projects-5.jpg" alt="">
-                        <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/projects-5.jpg" data-lightbox="projects">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 mb-4 projects-item third">
-                    <div class="position-relative overflow-hidden mb-2">
-                        <img class="img-fluid rounded w-100" src="img/projects-6.jpg" alt="">
-                        <div class="projects-btn bg-primary d-flex align-items-center justify-content-center">
-                            <a href="img/prijects-6.jpg" data-lightbox="projects">
-                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    </body>
+</html>
