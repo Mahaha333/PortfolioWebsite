@@ -8,33 +8,41 @@
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="stylesheet" media="screen and (max-device-width: 480px)" href="main_1.css" />
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <style>
+            
+        </style>
     </head>
 
     <body style="background-color: #081b29;">
-        <header class="menu-bar">
-            <a href="#" class="logo">MS</a>
+        <header class="menu-bar" id="myMenubar">
+            <a href="home.html" class="logo">MS</a>
             <nav class="homeNavbar">
                 <a href="home.html" class="active">Home</a>
                 <a href="about.html">About</a>
                 <a href="projects.html">Projects</a>
                 <a href="contact.html">Contact</a>
+                <div class="toggleButtonIcons">
+                    <i class='bx bx-x' onclick="hideMenu()"></i>
+                    <i class='bx bx-menu' onclick="showMenu()"></i>
+                </div>
             </nav>
         </header>
 
         <section class="home">
             <div class="home-content">
                 <h1>Maha Shahid</h1>
-                <h3>Comp Sci student</h3>
-                <p>Computer science student about to enter my third year at the University of Guelph. Over here, you will find out what I have accomplished in my degree, and how to reach out to me.</p>
+                <h3>Comp Sci Student</h3>
+                <p>Computer science student about to enter my third year at the University of Guelph in Ontario, Canada. Over here, you will find out 
+                    what I have accomplished in my degree, and how to reach out to me.</p>
                 <div class="btn-box">
                     <a href="contact.html">Let's talk!</a>
-                    <a href="file:///Users/emumba/Downloads/CV.pdf" target=”_blank” download>My Resume</a>
+                    <a href="../..//Fonts+images/CV.pdf" target=”_blank” download>My Resume</a>
                 </div>
             </div>
 
             <div class="floating-image">
-                <img src="../../diamond_image.jpg" alt="Floating Image">
-                <img src="img_girl.jpg" style="max-width:100%;height:auto;">	
+                <img src="../../Fonts+images/images/diamond_image.jpg">
+                <!--<img src="img_girl.jpg" style="max-width:100%;height:auto;">-->
               </div>
 
             <!--span.-->
@@ -47,6 +55,15 @@
                 -->
             </div>
         </section>
-
+        <script>
+            function myFunction() {
+              var x = document.getElementById("myMenubar");
+              if (x.className === "menu-bar") {
+                x.className += " responsive";
+              } else {
+                x.className = "menu-bar";
+              }
+            }
+            </script>
     </body>
 </html>
